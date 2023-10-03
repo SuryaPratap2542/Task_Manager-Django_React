@@ -1,0 +1,144 @@
+body {
+  margin: 0;
+  padding:0;
+  font-family: sans-serif;
+  -webkit-font-smoothing: antialiased;
+  background-color: rgb(5, 5, 128); 
+}
+
+.todo-title{
+  cursor:pointer;
+}
+.completed-todo { 
+  text-decoration: line-through;
+}
+.tab-list > span {
+  padding: 5px 8px;
+  border : 1px solid rgb(5, 5, 128);
+  border-radius:10px;
+  margin-right:5px;
+  cursor: pointer;
+}
+.tab-list>span.active {
+  background-color: rgb(5, 5, 128);
+  color:#fff;
+}
+
+/* Add a background color to the main content */
+.main-content {
+  background-color:wheat; /* You can choose any color you like */
+  padding: 20px; /* Add some padding to the content */
+}
+
+/* Style the heading */
+.text-center {
+  color: #333; /* Text color */
+  font-size: 36px; /* Font size */
+  margin-bottom: 20px; /* Margin at the bottom */
+}
+
+/* Style the buttons */
+.btn-primary {
+  background-color: #007bff; /* Button background color */
+  color: #fff; /* Button text color */
+  border: none; /* Remove button border */
+  padding: 10px 20px; /* Padding inside the button */
+  margin-bottom: 20px; /* Margin at the bottom */
+}
+
+.btn-primary:hover {
+  background-color: #0056b3; /* Change color on hover */
+}
+
+/* Style the card */
+.card {
+  border: none; /* Remove card border */
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Add a box shadow */
+}
+
+/* Style the list */
+.list-group-item {
+  background-color: #fff; /* List item background color */
+  border: none; /* Remove list item border */
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1); /* Add a box shadow */
+  margin-bottom: 10px; /* Margin at the bottom of each item */
+}
+
+/* Style the tab list */
+.tab-list {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.tab-list span {
+  cursor: pointer;
+  padding: 10px 20px;
+  background-color: #007bff; /* Tab background color */
+  color: #fff; /* Tab text color */
+  border: 1px solid #007bff; /* Tab border */
+  border-radius: 5px; /* Rounded corners */
+  margin-right: 10px; /* Margin between tabs */
+}
+
+.tab-list span.active {
+  background-color: #0056b3; /* Active tab background color */
+  border: 1px solid #0056b3; /* Active tab border */
+}
+
+/* Style the modal */
+.modal-content {
+  background-color: #fff; /* Modal background color */
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Add a box shadow */
+  border: none; /* Remove modal border */
+  border-radius: 5px; /* Rounded corners */
+}
+
+/* Style the form input fields */
+.form-control {
+  border: 1px solid #ccc; /* Input field border */
+  border-radius: 5px; /* Rounded corners */
+  padding: 10px; /* Padding inside input fields */
+  margin-bottom: 20px; /* Margin at the bottom of input fields */
+}
+
+/* Style the save button */
+.btn-success {
+  background-color: #28a745; /* Save button background color */
+  color: #fff; /* Save button text color */
+  border: none; /* Remove button border */
+  border-radius: 5px; /* Rounded corners */
+  padding: 10px 20px; /* Padding inside the button */
+}
+
+.btn-success:hover {
+  background-color: #218838; /* Change color on hover */
+}
+
+/* Style the delete button */
+.btn-danger {
+  background-color: #dc3545; /* Delete button background color */
+  color: #fff; /* Delete button text color */
+  border: none; /* Remove button border */
+  border-radius: 5px; /* Rounded corners */
+  padding: 10px 20px; /* Padding inside the button */
+}
+
+.btn-danger:hover {
+  background-color: #c82333; /* Change color on hover */
+}
+
+/* App.css */
+/* ... (other CSS styles) */
+
+/* Style for the sticky footer */
+.footer {
+  background-color: #333; /* Footer background color */
+  color: #fff; /* Footer text color */
+  text-align: center; /* Center-align the text */
+  padding: 10px 0; /* Add some padding to the top and bottom */
+  position: fixed; /* Fixed position at the bottom of the viewport */
+  left: 0;
+  /* bottom: 0; */
+  width: 100%; /* Full width */
+}
