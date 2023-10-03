@@ -5,9 +5,11 @@ A simple Task Manager web application built with Django and React.
 <img width="960" alt="image" src="https://github.com/SuryaPratap2542/Task_Manager-Django_React/assets/89827931/c6e22a32-2097-4f0a-8067-9a09b5fb09ff">
 - main page displaying tasks.
 
+
 ## Overview
 
 Task Manager is a web application that allows users to manage their tasks and to-do lists. It provides a user-friendly interface for creating, editing, and deleting tasks, as well as marking tasks as completed or incompleted. The backend is built with Django, which provides RESTful API endpoints for interacting with tasks, while the frontend is built with React.
+
 
 <img width="960" alt="image" src="https://github.com/SuryaPratap2542/Task_Manager-Django_React/assets/89827931/8c1dff9b-5160-44c4-9e05-bd3fc5e641f9">
 - "Add Task" feature.
@@ -15,6 +17,11 @@ Task Manager is a web application that allows users to manage their tasks and to
 
 <img width="960" alt="image" src="https://github.com/SuryaPratap2542/Task_Manager-Django_React/assets/89827931/c431abe7-164d-4d8c-835f-38aec1f9926e">
 - completed tasks.
+
+
+<img width="954" alt="image" src="https://github.com/SuryaPratap2542/Task_Manager-Django_React/assets/89827931/59b1ad8b-6982-47f6-969e-4a373ee255da">
+- incompleted tasks.
+
 
 ## Features
 
@@ -54,8 +61,6 @@ Task Manager is a web application that allows users to manage their tasks and to
 
    The React development server should now be running at `http://localhost:3000`.
 
-<img width="954" alt="image" src="https://github.com/SuryaPratap2542/Task_Manager-Django_React/assets/89827931/59b1ad8b-6982-47f6-969e-4a373ee255da">
-- incompleted tasks.
 
 ## Usage
 
